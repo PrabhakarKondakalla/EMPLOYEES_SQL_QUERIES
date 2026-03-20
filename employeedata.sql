@@ -29,3 +29,16 @@ UNLOCK TABLES;
 SELECT *FROM employeeS;
 --ASCESSING THE specific columns
 SELECT FIRSTNAME,GENDER,STARTDATE,SALARY FROM EMPLOYEES;
+--performing the Aggregation operation on employees Dataset
+/* we have five different type of the aggregation operation are there 
+1.sum()
+2.avg()
+3.min()
+4.max()
+5.count()
+ */
+SELECT COUNT(*) AS TOTAL_RECORDS FROM EMPLOYEES;
+SELECT SUM(SALARY) AS TOTAL_SALARY FROM EMPLOYEES;
+SELECT MIN(SALARY) AS MIN_SALARY FROM EMPLOYEES;
+SELECT MAX(SALARY) AS MAX_SALARY FROM EMPLOYEES;
+SELECT AVG(SALARY) AS AVG_SALARY FROM EMPLOYEES;
