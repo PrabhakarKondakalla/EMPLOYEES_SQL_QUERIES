@@ -67,3 +67,8 @@ select *from employees where team="DATA SCIENCE";
 UPDATE employees set team="cyber security" where salary=63241;
 update employees set team="machine learning" where salary=46666;
 update employees set seniorManagement="True" where salary=106362 and team="DATA SCIENCE";
+/* MYSQL ALTER TABLE STATEMENT IS USED TO ADD,DELETE OR MODIFY COLUMNS IN EXISTING TABLE */
+ALTER TABLE EMPLOYEES ADD ID INT(20);
+ DESCRIBE EMPLOYEES; 
+SELECT ID FROM EMPLOYEES;
+/* NOTE:THE INSERTED COLUMNS VALUES ARE NULL */
