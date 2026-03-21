@@ -78,3 +78,8 @@ DESCRIBE EMPLOYEES;
 /* MODIFY THE COLUMNS DATA TYPE */
 ALTER TABLE EMPLOYEES MODIFY COLUMN StartDate varchar(30);
 DESCRIBE EMPLOYEES;
+UPDATE employees
+SET StartDate = STR_TO_DATE(StartDate, '%m/%d/%Y');
+select *from employees;
+alter table employees modify column startdate date;
+describe employees;
