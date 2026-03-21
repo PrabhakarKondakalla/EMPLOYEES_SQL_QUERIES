@@ -64,4 +64,6 @@ SELECT *fROM EMPLOYEES;
 UPDATE EMPLOYEES SET FIRSTNAME="PRABHAKAR" WHERE FIRSTNAME="prabhakar" and gender="male" ;
 select *from employees where `FirstName`="prabhakar";
 select *from employees where team="DATA SCIENCE";
-UPDATE
+UPDATE employees set team="cyber security" where salary=63241;
+update employees set team="machine learning" where salary=46666;
+update employees set seniorManagement="True" where salary=106362 and team="DATA SCIENCE";
