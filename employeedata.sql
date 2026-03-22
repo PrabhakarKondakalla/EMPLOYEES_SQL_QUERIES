@@ -84,4 +84,3 @@ select *from employees;
 alter table employees modify column startdate date;
 describe employees;
 alter table employees modify column salary DOUBLE;
-alter table employees modify 
