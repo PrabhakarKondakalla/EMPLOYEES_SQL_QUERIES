@@ -87,3 +87,6 @@ alter table employees modify column salary DOUBLE;
 /* Performing the Sub Queries  */
 #Finding the Second Highest Salary in the Employees Table
 select max(salary) from employees where salary<(select max(salary) from employees);
+/* Finding the second Highest bonus of the Employees */
+describe employees;
+select max(Bonus) from employees where Bonus<(select max(Bonus) from employees);
