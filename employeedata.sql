@@ -90,4 +90,3 @@ select max(salary) from employees where salary<(select max(salary) from employee
 /* Finding the second Highest bonus of the Employees */
 describe employees;
 select max(Bonus) from employees where Bonus<(select max(Bonus) from employees);
-alter table employees modify column Bonus float;
