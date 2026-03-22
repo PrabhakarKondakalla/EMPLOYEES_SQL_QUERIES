@@ -85,4 +85,5 @@ alter table employees modify column startdate date;
 describe employees;
 alter table employees modify column salary DOUBLE;
 /* Performing the Sub Queries  */
+#Finding the Second Highest Salary in the Employees Table
 select max(salary) from employees where salary<(select max(salary) from employees);
