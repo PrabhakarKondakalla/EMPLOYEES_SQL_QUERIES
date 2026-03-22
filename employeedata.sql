@@ -84,3 +84,5 @@ select *from employees;
 alter table employees modify column startdate date;
 describe employees;
 alter table employees modify column salary DOUBLE;
+/* Performing the Sub Queries  */
+select max(salary) from employees where salary<(select max(salary) from employees);
