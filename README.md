@@ -1,13 +1,12 @@
-📊 # Employee Data Analysis – Problem Statements
-<b>
-📌 ## Project Overview
+# Employee Data Analysis – Problem Statements
+
+ ## Project Overview
 
 This project analyzes employee data to uncover insights related to salary distribution, performance, login behavior, and workforce composition. The goal is to simulate real-world business questions using SQL.
 
-🔥 ## Problem Statements  
+ ## Problem Statements  
 🧑‍💼 1. Workforce Composition Analysis
 
-Problem Statement:
 Analyze the distribution of employees based on gender and team to understand workforce diversity and team structure.
 
 💰 2. Salary Distribution & Pay Gap Analysis
